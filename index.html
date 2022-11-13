@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leen</title>
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans:wght@400;600;700&family=Noto+Serif+Bengali&family=Oleo+Script:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="./resources/styles.css">
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford:'#da373d',
+                background:'#E5E5E5',
+                contactColor:'#D63F48',
+                languageColor:'#E53345',
+                textColor:'#1F2045'
+                
+            },
+            fontFamily: {
+                banglaTitle:"'Noto Serif Bengali', serif",
+                allFonts:"'Noto Sans', sans-serif",
+                mainTitle:"'Alfa Slab One', cursive",
+                allTitle:"'Oswald', sans-serif",
+                logoFont:"'Oleo Script', cursive"
+
+             }
+            }
+        }
+        }
+    </script>
+    </head>
+    <body class="bg-background">
+        
+
+    <!-- background top section -->
+        <div class="sticky">
+            <div class="max-w-6xl mx-auto px-4 py-3">
+                <div class="flex justify-between">
+                    <div class="flex space-x-5">
+                        <div class="text-sm space-x-1 sm:inline">
+                            <!-- Website Logo -->
+                            <a class="font-normal font-allFonts text-textColor">Have any questions?</a>
+                            <a href="tel:+8801406666430" class="font-bold text-contactColor font-allFonts">+880 140 6666 430</a>
+                            <a href="contact@leen.health" class="font-normal font-allFonts text-textColor">contact@leen.health</a>
+                        </div>						
+                    </div>
+                    <div class="items-center space-x-3 text-sm px-2">
+                        <a href="" class=" font-semibold text-languageColor font-allFonts">English</a>
+                        <a href="" class="font-normal font-banglaTitle font-allFonts text-textColor">বাংলা</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- header section starts -->
+        <header class="">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+               
+                <span class="ml-8">leen</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900">First Link</a>
+                <a class="mr-5 hover:text-gray-900">Second Link</a>
+                <a class="mr-5 hover:text-gray-900">Third Link</a>
+                <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+            </nav>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+            </div>
+        </header> 
+
+        <script src="./index.js"></script>
+    </body>
