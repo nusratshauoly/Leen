@@ -35,33 +35,38 @@
                 'firstSectionImageWidth':'41.75rem',
                 'thirdSectionImageWidth':'37.563rem',
                 'fourthSectionImageWidth':'23.563rem',
+                'sixthSectionEmailWidth':'33.75rem',
+
                 
             },
             height:{
                 'firstSectionImageHeight':'30.25rem',
                 'thirdSectionImageHeight':'33.313rem',
                 'fourthSectionImageHeight':'23.5rem',
+                'sixthSectionEmailHeight':'4.375rem',
+                'footerHeight':'5.625rem',
+
             },
             fontSize:{
                 'allTitle':['40px', '57px'], 
-            }
+            },
+        }
+    }
+}
+</script>
 
-            }
-        }
-        }
-    </script>
     </head>
 
     <body class="bg-background">
         <!-- background top section -->
-            <div class="container mx-auto px-4 py-3 md:w-screen">
+            <div class="container mx-auto px-4 py-3 md:w-screen" id="any-question">
                 <div class="flex justify-between">
                     <div class="flex space-x-8">
                        <!-- Website contact -->
                         <div class="text-sm space-x-1 sm:inline font-allFonts">
                             <a class="font-normal text-textColor">Have any questions?</a>
                             <a href="tel:+8801406666430" class="font-bold text-color">+880 140 6666 430</a>
-                            <a href="contact@leen.health" class="font-normal text-textColor">contact@leen.health</a>
+                            <a href="contact@leen.health" class="font-normal text-textColor hover:text-color">contact@leen.health</a>
                         </div>						
                     </div>
                     <!--  font section -->
@@ -73,9 +78,9 @@
             </div>
             
         <!-- header section starts -->
-            <header>
-                <div class="bg-white drop-shadow-lg top-0">
-                    <nav class="container mx-auto px-4">
+            <header class="sticky top-0 nav-bar">
+                <div class="bg-white drop-shadow-lg ">
+                    <nav class="container mx-auto px-4 ">
                         <div class="flex justify-between text-center">
                     <!-- Website Logo -->
                             <h2 class="py-4 text-4xl italic text-languageColor font-bold text-color">leen</h2>
@@ -125,8 +130,8 @@
                         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
                         <!-- About -->
                             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <div class="sm:text-6xl md:text-4xl text-3xl mb-4 font-normal font-mainTitle">
-                                    <h1 class="text-color">Emergency Health Care</h1>
+                                <div class="sm:text-5xl text-3xl  mb-4 font-normal font-mainTitle">
+                                    <h1 class="text-color pb-4">Emergency Health Care</h1>
                                     <h1 class="lg:inline-block text-textColor ">on Your Hand</h1>
                                 </div>
                                 <p class="mb-8 leading-relaxed sm:text-2xl text-base font-normal font-allFonts text-textColor">Doctors are available for you 24/7 Join leen & stay healthy</p>
@@ -145,10 +150,10 @@
                     <section class="bg-whiteBackground" id="sponsor">
                         <!-- title -->
                             <div class="sm:text-left text-center pt-20 pl-18 md:pl-8 pb-14">
-                                <h1 class="sm:text-5xl text-[40px] mb-4 font-allTitle font-bold text-textColor">How It works</h1>
+                                <h1 class="sm:text-5xl text-[40px] font-allTitle font-bold text-textColor">How It works</h1>
                             </div>
-                            <div class="container px-5 py-20 mx-auto lg:h-screen md:h-screen items-center lg:w-screen md:w-screen">
-                                <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 md:flex-row flex-col">
+                            <div class="container px-5 py-8 mx-auto lg:h-screen md:h-screen items-center lg:w-screen md:w-screen ">
+                                <div class="flex flex-wrap sm:m-4 mx-4 mt-4 md:space-y-0 space-y-6 md:flex-row flex-col">
                             <!-- first part -->
                                     <div class="p-4 md:w-1/3 flex flex-col text-center items-center justify-center">
                                         <div class="w-56 h-56 inline-flex items-center justify-center mb-5">
@@ -205,7 +210,8 @@
                             </div>
                         </div>
                     </section>
-                <!-- fourth section -->
+
+                <!-- fourth section starts-->
                     <section class="bg-whiteBackground" id="contact">
                         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
                             <!-- image -->
@@ -226,7 +232,128 @@
                         </div>
                     </section>
 
+                <!-- fifth section -->
+                    <section class="bg-background" id="signIn">
+                        <div class="container px-5 py-24 mx-auto lg:h-screen md:h-screen lg:w-screen md:w-screen">
+                        <!-- title -->
+                            <div class="text-center mb-20">
+                                <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">How it works</h1>
+                            </div>
+                            <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                            <!-- first part -->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill.png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">Which License do I need?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            <!-- second part-->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill (1).png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">How long does my License last?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            <!-- third part-->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill (2).png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">How do I get access to a theme?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            <!-- fourth part-->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill (3).png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">How do I download my theme?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            <!-- fifth part-->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill (4).png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">How do I see previous orders?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            <!-- sixth part-->
+                                <div class="p-2 sm:w-1/2 w-full">
+                                    <div class="bg-whiteBackground rounded flex p-4 h-full items-center cursor-pointer mb-3">
+                                        <img src="./images/fifth-section/Fill (5).png" alt="">
+                                        <span class="font-normal text-base text-textColor font-allFonts pl-3 px-4 py-3">How do I contact Support?</span>
+                                        <p class="px-4 py-3 font-normal text-sm text-textColor font-allFonts">Nunc posuere dapibus urna quis cursus. Mauris malesuada tincidunt diam vel placerat mi tincidunt ac. Nullam augue urna, venenatis ut blandit eget, auctor vel eros. In ut dolor ante</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+        <!-- 6th section -->
+        <!-- <section class="text-gray-600 body-font">
+            <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
+              <div class="md:py-8mb-10 md:mb-0 pb-10">
+                
+                <input type="text" id="name" name="name" placeholder="Name" class="lg:w-['33.75rem'] h-['4.375rem'] bg-white rounded text-base outline-none ">
+            </div>
+            <div class="mb-4">
+              
+              <input type="email" id="email" name="email" placeholder="Email" class="w-full bg-white rounded text-base outline-none">
+            </div>
+            <div class="mb-4">
+              
+              <textarea id="message" name="message"  class="h-32 leading-6 resize-none w-full bg-white rounded text-inputText text-base outline-none py-1 px-3" placeholder="Message"></textarea>
+            </div>
+            <button class="text-white text-base bg-buttonBackground border-0 py-2 px-6 focus:outline-none hover:bg-buttonBackground rounded-full w-32 text-lg">Button</button>
+
+              </div>
+              <div class="flex flex-col md:w-1/2 md:pl-12">
+                <h2 class="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">CATEGORIES</h2>
+                <nav class="flex flex-wrap list-none -mb-1">
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Fifth Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Sixth Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Seventh Link</a>
+                  </li>
+                  <li class="lg:w-1/3 mb-1 w-1/2">
+                    <a class="text-gray-600 hover:text-gray-800">Eighth Link</a>
+                  </li>
+                </nav>
+              </div>
+            </div>
+          </section> -->
+          
         </main>
+
+        <!-- footer sectionn  starts -->
+            <footer class="fixed bottom-0 sm:w-screen w-screen md:w-screen bg-white drop-shadow-lg flex">
+                    <div class="items-center container h-[5.625rem] text-base font-bold text-textColor font-allFonts">
+                        <p class="text-center pt-8">© 2020 leen rights reserved</p>
+                    </div> 
+                    <a href="#any-question" class="pt-8 sm:pr-12 pr-8 "><img src="./images/footer/up-arrow.png" alt="icon for scroll to top section"></a>
+            </footer>
+        
+
+
 
 
 
