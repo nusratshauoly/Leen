@@ -31,10 +31,17 @@
                 allTitle:"'Oswald', sans-serif",
                 logoFont:"'Oleo Script', cursive",
             },
-            image:{
-                width:'668px',
-                height:'484px'
+            width:{
+                '668':'41.75rem',
+                
+            },
+            height:{
+                '484':'30.25rem',
+            },
+            fontSize:{
+                'title':['40px', '57px'], 
             }
+
             }
         }
         }
@@ -46,50 +53,51 @@
             <div class="container mx-auto px-4 py-3 md:w-screen">
                 <div class="flex justify-between">
                     <div class="flex space-x-8">
+                       <!-- Website contact -->
                         <div class="text-sm space-x-1 sm:inline font-allFonts">
-                        <!-- Website Logo -->
                             <a class="font-normal text-textColor">Have any questions?</a>
                             <a href="tel:+8801406666430" class="font-bold text-color">+880 140 6666 430</a>
                             <a href="contact@leen.health" class="font-normal text-textColor">contact@leen.health</a>
                         </div>						
                     </div>
-                        <div class="items-center space-x-3 text-sm px-2">
-                            <a href="" class="font-semibold text-englishTitleColor font-allFonts">English</a>
-                            <a href="" class="font-normal font-banglaTitle text-textColor">বাংলা</a>
-                        </div>
+                    <!--  font section -->
+                    <div class="items-center space-x-3 text-sm px-2">
+                        <a href="" class="font-semibold text-englishTitleColor font-allFonts">English</a>
+                        <a href="" class="font-normal font-banglaTitle text-textColor">বাংলা</a>
+                    </div>
                 </div>
             </div>
             
         <!-- header section starts -->
-            <header>
-                <div class="bg-white drop-shadow-lg top-0">
-                    <nav class="container mx-auto px-4">
-                        <div class="flex justify-between text-center">
-                        <!-- Website Logo -->
-                            <h2 class="py-4 text-4xl italic text-languageColor font-bold text-color">leen</h2>
-                        <!-- Primary Navbar items -->
-                            <div class="hidden md:flex items-center space-x-3 text-lg font-bold text-textColor font-allFonts">
-                                <a href="#how-it-works" class="py-4 px-2 hover:text-contactColor">How it works</a>
-                                <a href="#services" class="py-4 px-2 hover:text-contactColor">Become a Sponsor</a>
-                                <a href="#about" class="py-4 px-2 hover:text-contactColor">FAQ</a>
-                                <a href="#contact" class="py-4 px-2 hover:text-contactColor">Contact</a>
-                                <a href="#contact" class="py-4 px-2 hover:text-contactColor">Sign in</a>
-                                <a href="#contact" class="py-4 px-2 hover:text-contactColor">Sign up</a>
-                            </div>
-                        <!-- Mobile menu button -->
-                            <div class="md:hidden flex items-center">
-                                <button class="outline-none mobile-menu-button">
-                                    <svg class="w-6 h-6 text-gray-500"
-                                        fill="none"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        stroke-width="2"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor">
-                                    <path d="M4 6h16M4 12h16M4 18h16"></path>
-                                    </svg>
-                                </button>
-                            </div>
+        <header>
+            <div class="bg-white drop-shadow-lg top-0">
+                <nav class="container mx-auto px-4">
+                    <div class="flex justify-between text-center">
+                    <!-- Website Logo -->
+                        <h2 class="py-4 text-4xl italic text-languageColor font-bold text-color">leen</h2>
+                    <!-- Navbar items -->
+                        <div class="hidden md:flex items-center space-x-3 text-lg font-bold text-textColor font-allFonts">
+                            <a href="#how-it-works" class="py-4 px-2 hover:text-contactColor">How it works</a>
+                            <a href="#services" class="py-4 px-2 hover:text-contactColor">Become a Sponsor</a>
+                            <a href="#about" class="py-4 px-2 hover:text-contactColor">FAQ</a>
+                            <a href="#contact" class="py-4 px-2 hover:text-contactColor">Contact</a>
+                            <a href="#contact" class="py-4 px-2 hover:text-contactColor">Sign in</a>
+                            <a href="#contact" class="py-4 px-2 hover:text-contactColor">Sign up</a>
+                        </div>
+                    <!-- Mobile menu button -->
+                        <div class="md:hidden flex items-center">
+                            <button class="outline-none mobile-menu-button">
+                                <svg class="w-6 h-6 text-gray-500"
+                                    fill="none"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </button>
+                    </div>
                         </div>
                         
                         <!-- mobile menu -->
@@ -110,83 +118,65 @@
             <main>
                 <section class="" id="how-it-works">
                     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
+                        <!-- About section -->
                         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                            <div class="sm:text-6xl md:4xl text-3xl mb-4 font-normal font-mainTitle">
+                            <div class="sm:text-6xl md:text-4xl text-3xl mb-4 font-normal font-mainTitle">
                                 <h1 class="text-color">Emergency Health Care</h1>
                                 <h1 class="lg:inline-block text-textColor ">on Your Hand</h1>
                             </div>
                             <p class="mb-8 leading-relaxed sm:text-2xl text-base font-normal font-allFonts text-textColor">Doctors are available for you 24/7 Join leen & stay healthy</p>
                             <div class="flex justify-center">
-                                <button class="inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-contactColor rounded text-2xl font-normal font-allFonts text-textColor items-center"><img class="w-16" src="./images/first-section/button.png" alt=""> Join now</button>
+                                <button class="inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-contactColor rounded text-2xl font-normal font-allFonts text-textColor items-center"><img class="w-16" src="./images/first-section/button.png" alt="">Join now</button>
                             </div>
                         </div>
+                        <!-- image section -->
                         <div class="lg:max-w-lg lg:w-full md:w-1/2">
-                            <img class="object-cover object-center rounded w-screen h-fit" alt="hero" src="./images/first-section/person.png">
+                            <img class="object-cover object-center rounded-tl-lg rounded-bl-lg r w-[41.75rem] h-[30.25rem]" alt="image of a doctor" src="./images/first-section/person.png">
                         </div>
                     </div>
                 </section>
 
         <!-- second section -->
-        <section class="bg-whiteBackground" id="services">
-            <div class="container px-5 py-24 mx-auto lg:h-screen md:h-screen items-center lg:w-screen md:w-screen">
-              <div class="text-center mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Raw Denim Heirloom Man Braid</h1>
-                
-              </div>
-              <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-                  <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                    <img src="" alt="">
-                  </div>
-                  <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">1. Are you feeling sick?</h2>
-                    <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-                    <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
+                <section class="bg-whiteBackground" id="services">
+                    <div class="container px-5 py-24 mx-auto lg:h-screen md:h-screen items-center lg:w-screen md:w-screen">
+                        <div class="sm:text-left text-center mb-28">
+                            <h1 class="sm:text-5xl text-[40px] mb-4 font-allTitle font-bold text-textColor">How It works</h1>
+                        </div>
+                        <!-- first part -->
+                        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                                <div class="w-56 h-56 inline-flex items-center justify-center mb-5">
+                                    <img src="./images/second-section/image1.png" alt="image of a feeling sick">
+                                </div>
+                                <div class="flex-grow">
+                                    <h2 class="text-2xl font-allFonts font-bold text-textColor mb-3">1. Are you feeling sick?</h2>
+                                    <p class="leading-relaxed text-xl font-allFonts text-textColor font-normal">Leen is here for you Join & Let your  doctor know the problem. Stay Healthy!</p>
+                                </div>
+                            </div>
+                        <!-- 2nd part -->
+                        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                            <div class="w-56 h-56 inline-flex items-center justify-center mb-5">
+                                <img src="./images/second-section/image2.png" alt="image of a install and sign up form">
+                            </div>
+                            <div class="flex-grow">
+                                <h2 class="text-2xl font-allFonts font-bold text-textColor mb-3">2. Install and Sign up on Leen</h2>
+                                <p class="leading-relaxed text-xl font-allFonts text-textColor font-normal">Leen is here for you Join & Let your  doctor know the problem. Stay Healthy!</p>
+                            </div>
+                        </div>
+                        <!-- 3rd part -->
+                        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+                            <div class="w-56 h-56 inline-flex items-center justify-center mb-5">
+                                <img src="./images/second-section/image3.png" alt="image of a patients service">
+                            </div>
+                            <div class="flex-grow">
+                            <h2 class="text-2xl font-allFonts font-bold text-textColor mb-3">3.Make the call and Explain 
+                            your condition</h2>
+                            <p class="leading-relaxed text-xl font-allFonts text-textColor font-normal">Leen is here for you Join & Let your  doctor know the problem. Stay Healthy!</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-                  <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                      <circle cx="6" cy="6" r="3"></circle>
-                      <circle cx="6" cy="18" r="3"></circle>
-                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                    </svg>
-                  </div>
-                  <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">The Catalyzer</h2>
-                    <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-                    <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-                <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-                  <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                  </div>
-                  <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Neptune</h2>
-                    <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard.</p>
-                    <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-            </div>
-          </section>
+                    </div>
+                </section>
 
         </main>
 
