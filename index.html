@@ -35,7 +35,10 @@
                 'firstSectionImageWidth':'41.75rem',
                 'thirdSectionImageWidth':'37.563rem',
                 'fourthSectionImageWidth':'23.563rem',
-                'sixthSectionEmaggeWidth':'33.75rem',
+                'fourthSectionButtonWidth':'19.813rem',
+                'sixthSectionImageWidth':'33.75rem',
+                'sixthSectionInputWidth':'33.75rem',
+                'sixthSectionButtonWidth':'11.688rem',
 
                 
             },
@@ -43,7 +46,9 @@
                 'firstSectionImageHeight':'30.25rem',
                 'thirdSectionImageHeight':'33.313rem',
                 'fourthSectionImageHeight':'23.5rem',
-                'sixthSectionEmageHeight':'15.313rem',
+                'fourthSectionButtonHeight':'19.813rem',
+                'sixthSectionInputHeight':'4.375rem',
+                'sixthSectionTextareaHeight':'15.313rem',
                 'footerHeight':'5.625rem',
 
             },
@@ -134,8 +139,8 @@
                                     <h1 class="lg:inline-block text-textColor ">on Your Hand</h1>
                                 </div>
                                 <p class="mb-8 leading-relaxed sm:text-2xl text-base font-normal font-allFonts text-textColor">Doctors are available for you 24/7 Join leen & stay healthy</p>
-                                <div class="flex justify-center">
-                                    <button class="inline-flex border-0 py-2 px-6 focus:outline-none hover:bg-contactColor rounded text-2xl font-normal font-allFonts text-textColor items-center"><img class="w-16" src="./images/first-section/button.png" alt="">Join now</button>
+                                <div class="">
+                                    <button class="inline-flex border-0 py-2 px-8 focus:outline-none hover:bg-contactColor rounded text-2xl font-normal font-allFonts text-textColor items-center"><img class="w-16" src="./images/first-section/button.png" alt="">Join now</button>
                                 </div>
                             </div>
                         <!-- image -->
@@ -224,8 +229,8 @@
                                     <h1 class="">represents a <span class="text-color">clinic</span> ?</h1>
                                 </div>
                                 <p class="mb-8 leading-relaxed md:mt-4 mt-6 text-justify text-xl text-textColor font-normal font-allFonts">leen needs you. Join leen doctor panel and help thousands of people. also earn for your time. It's win-win for everyone.</p>
-                                <div class="flex justify-center">
-                                    <button class="inline-flex text-white bg-color border-0 py-5 px-20 focus:outline-none hover:bg-indigo-600 rounded-2xl text-lg">Join leen doctor panel</button>
+                                <div>
+                                    <button class="text-white bg-color border-0 w-[19.813rem] h-14 focus:outline-none rounded-2xl text-lg">Join leen doctor panel</button>
                                 </div>
                             </div>
                         </div>
@@ -300,29 +305,55 @@
             </div>
             <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
                 
-              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-                  <br class="hidden lg:inline-block">readymade gluten
-                </h1>
-                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-                <div class="flex justify-center">
-                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
+
+               
+                <input type="text" id="name" name="name" placeholder="Name" class="w-[33.75rem] h-[4.375]  py-1 px-3 leading-8 bg-whiteBackground rounded text-base outline-none font-normal font-allFonts text-textColor">
+                 <br>
+                  <input type="email" id="email" name="email" placeholder="Email" class="w-[33.75rem] h-[4.375] rounded outline-none py-1 px-3 leading-8 bg-whiteBackground font-normal font-allFonts text-textColor">
+               <br>
+                  <textarea id="message" name="message"  class="h-32 leading-relaxed resize-none w-[33.75rem] h-[15.313rem] rounded outline-none py-1 px-3 bg-whiteBackground font-normal font-allFonts text-textColor" placeholder="Message"></textarea>
+              
+                <div class="justify-center pt-8">
+                  <button class="text-white bg-color border-0 py-2 px-6 focus:outline-none hover:bg-color hover:scale-100 rounded-2xl text-base font-bold font-allFonts w-[11.688rem] h-14">Button</button>
                 </div>
               </div>
               <div class="lg:max-w-lg lg:w-full md:w-1/2 w-[33.75rem] h-[15.313rem]">
                 <img class="object-cover object-top rounded" alt="hero" src="./images/sixth-section/map.png">
-                <div class="flex justify-center pt-8 gap-x-5 leading-relaxed">
-                    <div class="">
-                        <img src="./images/sixth-section/address.png" alt="" class="inline-block leading-loose">
-                        <h4 class="items-center inline-block text-center">Address</h4>
-                        <p class="">House 1334, Avenue 3, Mirpur DOHS,
+                
+                       <!--  -->
+                    <div class="flex">
+                    <div class="pt-8 md:w-1/3 flex">
+                        <div class="w-12 h-12 inline-flex mb-2">
+                            <img src="./images/sixth-section/address.png" alt="">
+                        </div>
+                        <div class="leading">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Address</h2>
+                          <p class="text-base mr-20">House 1334, Avenue 3, Mirpur DOHS,
                             <br>
                         Dhaka 1216, Bangladesh
-                        </p> 
-                        
+                        </p> </p>
+                          
+                        </div>
+                      </div>
+                      <!--  -->
+                      <!--  -->
+
+                    <div class="pt-8 md:w-1/3 flex ml-4">
+                        <div class="w-12 h-12 inline-flex mb-2">
+                            <img src="./images/sixth-section/address.png" alt="">
+                        </div>
+                        <div class="leading">
+                          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Address</h2>
+                          <p class=" text-base">House 1334, Avenue 3, Mirpur DOHS,
+                            <br>
+                        Dhaka 1216, Bangladesh
+                        </p> </p>
+                          
+                        </div>
+                      </div>
+                      <!--  -->
                     </div>
-                    <button class="ml-8 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
                   </div>
               </div>
             </div>
