@@ -37,7 +37,7 @@
                 'fourthSectionImageWidth':'23.563rem',
                 'fourthSectionButtonWidth':'19.813rem',
                 'sixthSectionImageWidth':'33.75rem',
-                'sixthSectionInputWidth':'33.75rem',
+                'sixthSectionInputWidth':'30.75rem',
                 'sixthSectionButtonWidth':'11.688rem',
 
                 
@@ -151,7 +151,7 @@
                     </section>
 
                 <!-- second section -->
-                    <section class="">
+                   
                     
                         <section class="bg-whiteBackground" id="how-it-works" >
                         <!-- title -->
@@ -299,67 +299,48 @@
                     </section>
 
         <!-- 6th section -->
-        
-        <section class="mb-40" id="contact">
-            <!-- title -->
-            <div class="text-center pb-4 pl-18 md:pl-8">
-                <h1 class="sm:text-5xl text-[40px] font-allTitle font-bold text-textColor">How It works</h1>
-            </div>
-            <div class="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
-                
-              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
-
-               
-                <input type="text" id="name" name="name" placeholder="Name" class="w-[33.75rem] h-[4.375]  py-1 px-3 leading-8 bg-whiteBackground rounded text-base outline-none font-normal font-allFonts text-textColor">
+        <section class="text-gray-600 body-font" id="contact">
+            <div class="container px-5 py-24 mx-auto items-center lg:h-screen md:h-screen lg:w-screen md:w-screen">
+              <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full rounded">
+                    <input type="text" id="name" name="name" placeholder="Name" class="w-full mb-4 h-[4.375] py-3 px-3 bg-whiteBackground rounded text-base outline-none font-normal font-allFonts text-textColor">
                  <br>
-                  <input type="email" id="email" name="email" placeholder="Email" class="w-[33.75rem] h-[4.375] rounded outline-none py-1 px-3 leading-8 bg-whiteBackground font-normal font-allFonts text-textColor">
+                  <input type="email" id="email" name="email" placeholder="Email" class="w-full h-[4.375] mb-4 rounded outline-none py-3 px-3 bg-whiteBackground font-normal font-allFonts text-textColor">
                <br>
-                  <textarea id="message" name="message"  class="h-32 leading-relaxed resize-none w-[33.75rem] h-[15.313rem] rounded outline-none py-1 px-3 bg-whiteBackground font-normal font-allFonts text-textColor" placeholder="Message"></textarea>
+                  <textarea id="message" name="message"  class="h-32 leading-relaxed resize-none w-full h-[15.313rem] rounded outline-none py-1 px-3 bg-whiteBackground font-normal font-allFonts text-textColor" placeholder="Message"></textarea>
               
-                <div class="justify-center pt-8">
+                <div class="justify-center pt-4">
                   <button class="text-white bg-color border-0 py-2 px-6 focus:outline-none hover:bg-color hover:scale-100 rounded-2xl text-base font-bold font-allFonts w-[11.688rem] h-14">Button</button>
                 </div>
-              </div>
-              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-[33.75rem] h-[15.313rem]">
-                <img class="object-cover object-top rounded" alt="hero" src="./images/sixth-section/map.png">
-                
-                       <!--  -->
-                    <div class="flex">
-                    <div class="pt-8 md:w-1/3 flex">
-                        <div class="w-12 h-12 inline-flex mb-2">
-                            <img src="./images/sixth-section/address.png" alt="">
-                        </div>
-                        <div class="leading">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Address</h2>
-                          <p class="text-base mr-20">House 1334, Avenue 3, Mirpur DOHS,
-                            <br>
-                        Dhaka 1216, Bangladesh
-                        </p> </p>
-                          
-                        </div>
-                      </div>
-                      <!--  -->
-                      <!--  -->
-
-                    <div class="pt-8 md:w-1/3 flex ml-4">
-                        <div class="w-12 h-12 inline-flex mb-2">
-                            <img src="./images/sixth-section/address.png" alt="">
-                        </div>
-                        <div class="leading">
-                          <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Address</h2>
-                          <p class=" text-base">House 1334, Avenue 3, Mirpur DOHS,
-                            <br>
-                        Dhaka 1216, Bangladesh
-                        </p> </p>
-                          
-                        </div>
-                      </div>
-                      <!--  -->
-                    </div>
                   </div>
+                </div>
+                <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full rounded">
+                    <img class="object-cover object-top rounded" alt="hero" src="./images/sixth-section/map.png">
+                    
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="./images/sixth-section/address.png" class="w-12 h-16 rounded-full flex-shrink-0 object-cover object-center mt-6">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-gray-900">Address</span>
+                        
+                      </span>
+                    </a>
+                    <a class="inline-flex items-center ml-32">
+                        <img alt="testimonial" src="./images/sixth-section/phone.png" class="w-12 h-16 rounded-full flex-shrink-0 object-cover object-center mt-6">
+                        <span class="flex-grow flex flex-col pl-4">
+                          <span class="title-font font-medium text-gray-900">Phone</span>
+                          
+                        </span>
+                      </a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
+            
+       
               
             
           
