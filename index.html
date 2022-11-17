@@ -20,7 +20,7 @@
                 clifford:'#da373d',
                 background:'#E5E5E5',
                 color:'#D63F48',
-                englishTitleColor:'#E53345',
+                selectTitleColor:'#E53345',
                 textColor:'#1F2045',
                 whiteBackground:'#FFFFFF'
             },
@@ -75,7 +75,7 @@
                     </div>
                     <!--  font section -->
                     <div class="items-center space-x-3 text-sm px-2">
-                        <a href="" class="font-semibold text-englishTitleColor font-allFonts">English</a>
+                        <a href="" class="font-semibold text-selectTitleColor font-allFonts">English</a>
                         <a href="" class="font-normal font-banglaTitle text-textColor">বাংলা</a>
                     </div>
                 </div>
@@ -232,14 +232,14 @@
                                 </div>
                                 <p class="mb-8 leading-relaxed md:mt-4 mt-6 text-justify text-xl text-textColor font-normal font-allFonts">leen needs you. Join leen doctor panel and help thousands of people. also earn for your time. It's win-win for everyone.</p>
                                 <div>
-                                    <button class="text-white bg-color border-0 w-[19.813rem] h-14 focus:outline-none rounded-2xl text-lg">Join leen doctor panel</button>
+                                    <button class="text-white bg-color border-0 w-[19.813rem] h-14 focus:outline-none rounded-2xl text-lg hover:bg-selectTitleColor">Join leen doctor panel</button>
                                 </div>
                             </div>
                         </div>
                     </section>
 
                 <!-- fifth section -->
-                    <section class="bg-background" id="faq">
+                    <section class="bg-background lg:mb-36" id="faq">
                         <div class="container px-5 py-24 mx-auto lg:h-screen md:h-screen lg:w-screen md:w-screen">
                         <!-- title -->
                             <div class="text-center pt-1 mb-24 pl-18 md:pl-8">
@@ -312,28 +312,34 @@
                   <textarea id="message" name="message"  class="h-32 leading-relaxed resize-none w-full h-[15.313rem] rounded outline-none py-1 px-3 bg-whiteBackground font-normal font-allFonts text-textColor" placeholder="Message"></textarea>
               
                 <div class="justify-center pt-4">
-                  <button class="text-white bg-color border-0 py-2 px-6 focus:outline-none hover:bg-color hover:scale-100 rounded-2xl text-base font-bold font-allFonts w-[11.688rem] h-14">Button</button>
+                  <button class="text-white bg-color border-0 py-2 px-6 focus:outline-none rounded-2xl text-base font-bold font-allFonts w-[11.688rem] h-14 hover:bg-selectTitleColor">Button</button>
                 </div>
                   </div>
                 </div>
                 <div class="p-4 md:w-1/2 w-full">
                   <div class="h-full rounded">
                     <img class="object-cover object-top rounded" alt="hero" src="./images/sixth-section/map.png">
-                    
-                    <a class="inline-flex items-center">
+                   
+                   
+                    <a target="_blank" href="https://www.google.com/maps/@23.822337,90.3654296,15z" class="inline-flex items-center ml-12">
                       <img alt="testimonial" src="./images/sixth-section/address.png" class="w-12 h-16 rounded-full flex-shrink-0 object-cover object-center mt-6">
                       <span class="flex-grow flex flex-col pl-4">
-                        <span class="title-font font-medium text-gray-900">Address</span>
-                        
+                        <span class="font-bold font-allFonts text-textColor text-xl">Address</span>
                       </span>
-                    </a>
-                    <a class="inline-flex items-center ml-32">
+                    </a> 
+                    <div class="pb-2">
+                    <p>House 1334, Avenue 3, Mirpur DOHS, <br class="pl-8">
+                        Dhaka 1216, Bangladesh</p> 
+                    </div>
+                
+                    <a href="tel:+880 140 6666 430" target="_blank" class="inline-flex items-center ml-40">
                         <img alt="testimonial" src="./images/sixth-section/phone.png" class="w-12 h-16 rounded-full flex-shrink-0 object-cover object-center mt-6">
                         <span class="flex-grow flex flex-col pl-4">
-                          <span class="title-font font-medium text-gray-900">Phone</span>
-                          
+                          <span class="font-bold font-allFonts text-textColor text-xl">Phone</span>  
                         </span>
                       </a>
+                      <p class="text-gray-500">+880 140 6666 430</p>
+                    </div>
                   </div>
                 </div>
               </div>
