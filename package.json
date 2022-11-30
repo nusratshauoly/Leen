@@ -1,0 +1,23 @@
+{
+  "name": "leen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nusratshauoly/leen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nusratshauoly/leen/issues"
+  },
+  "homepage": "https://github.com/nusratshauoly/leen#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
